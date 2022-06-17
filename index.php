@@ -37,5 +37,16 @@ foreach($students as $name=>$roll)
 . $roll . '<br />';
 }
 ?>
+<br>
+<br>
+<!-- PHP DATE TIME-->
+<?php
+date_default_timezone_set('America/Los_Angeles');
+echo date('Y-m-d h:m:sa');
+?>
+<br>
+<br>
+
+<?php include 'footer.php' ?>
 </body>
 </html>
